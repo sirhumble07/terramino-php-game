@@ -134,7 +134,7 @@ $full_pretty = $instance ? json_encode($instance, JSON_PRETTY_PRINT) : "No metad
     <div class="card">
       <h2 style="margin-top:0;">Azure IMDS (Full JSON)</h2>
 
-      <details open>
+      <details>
         <summary>Show/Hide full metadata</summary>
         <pre><?= htmlspecialchars($full_pretty) ?></pre>
       </details>
@@ -243,3 +243,4 @@ $full_pretty = $instance ? json_encode($instance, JSON_PRETTY_PRINT) : "No metad
 
 </body>
 </html>
+
